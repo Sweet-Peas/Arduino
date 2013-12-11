@@ -164,6 +164,26 @@ leonardo.build.vid=0x2341
 leonardo.build.pid=0x8036
 leonardo.build.core=arduino
 leonardo.build.variant=leonardo
+##############################################################
+
+leofi.name=Sweet Pea LeoFi
+leofi.upload.protocol=avr109
+leofi.upload.maximum_size=28672
+leofi.upload.speed=57600
+leofi.upload.disable_flushing=true
+leofi.bootloader.low_fuses=0xff
+leofi.bootloader.high_fuses=0xd8
+leofi.bootloader.extended_fuses=0xcb
+leofi.bootloader.path=caterina
+leofi.bootloader.file=Caterina-Leofi.hex
+leofi.bootloader.unlock_bits=0x3F
+leofi.bootloader.lock_bits=0x2F
+leofi.build.mcu=atmega32u4
+leofi.build.f_cpu=16000000L
+leofi.build.vid=0x16D0
+leofi.build.pid=0x88BF
+leofi.build.core=arduino
+leofi.build.variant=leonardo
 
 ##############################################################
 
